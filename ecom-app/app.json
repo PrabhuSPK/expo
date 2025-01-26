@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "ecom-scheme",
     "name": "ecom-app",
     "slug": "ecom-app",
     "version": "1.0.0",
@@ -22,7 +23,11 @@
       }
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
