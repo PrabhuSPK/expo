@@ -1,0 +1,29 @@
+https://nodejs.org/en/
+
+#install latest version
+npx create-expo-app@latest
+
+npx create-expo-app@11
+
+#install any templates
+npx create-expo-app@latest --template
+
+select Blank ===Typescript
+
+#project run
+npx expo start 
+
+control button hold+click the link with mouse
+
+#android studio
+npm run android
+
+
+https://gluestack.io/
+
+git clone https://github.com/PrabhuSPK/expo.git
+
+git checkout -b "prabhu"
+
+Expo Router:-
+https://docs.expo.dev/router/installation/
