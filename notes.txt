@@ -27,3 +27,68 @@ git checkout -b "prabhu"
 
 Expo Router:-
 https://docs.expo.dev/router/installation/
+
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+package.json
+
+Copy
+
+
+{
+  "main": "expo-router/entry"
+}
+
+app.json
+
+Copy
+
+
+{
+  "scheme": "your-app-scheme"
+}
+
+#developing your app for web
+npx expo install react-native-web react-dom
+
+app.json
+
+Copy
+
+
+{
+  "web": {
+    "bundler": "metro"
+  }
+}
+
+babel.config.js
+
+Copy
+
+
+module.exports = function (api) {
+  api.cache(true);
+  return {
+    presets: ['babel-preset-expo'],
+  };
+};
+
+#Clear bundler cache
+npx expo start --clear
+
+
+
+
+
+Key Use of <Slot />
+
+The Slot component in Expo Router is a placeholder that dynamically renders child routes within a parent layout. It is a part of the Expo Router, which is based on file-based routing similar to Next.js.
+
+app/_layout.tsx
+
+import { Slot } from 'expo-router'
+
+export default function _layout() {
+  return <Slot />;
+}

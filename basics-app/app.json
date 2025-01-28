@@ -1,8 +1,8 @@
 {
   "expo": {
-    "scheme": "ecom-scheme",
-    "name": "ecom-app",
-    "slug": "ecom-app",
+    "scheme": "basics-scheme",
+    "name": "basics-app",
+    "slug": "basics-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

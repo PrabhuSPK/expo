@@ -1,8 +1,8 @@
 {
   "expo": {
-    "scheme": "ecom-scheme",
-    "name": "ecom-app",
-    "slug": "ecom-app",
+    "scheme": "imdb-scheme",
+    "name": "imdb-app",
+    "slug": "imdb-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
